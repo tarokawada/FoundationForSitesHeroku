@@ -1,0 +1,28 @@
+.breadcrumb-container{
+    display: block;
+    height: 35px;
+    background-color: #E4E4E4;
+    
+    @include breakpoint(xxlarge down){
+        
+        .breadcrumb-row{
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .breadcrumbs{
+            vertical-align: middle;
+            display: table-cell;
+            height: 35px;
+        }
+        
+    }
+    
+    @include breakpoint(xlarge down){
+        nav{
+            max-width: 95%;
+            margin: 0 auto;
+        }
+    }
+}

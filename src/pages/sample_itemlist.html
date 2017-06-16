@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>EasyHardware</title>
+</head>
+<body>
+        <div class="multilevel-offcanvas off-canvas position-right" id="offCanvasRight" data-off-canvas>
+
+      <ul class="vertical menu" data-accordion-menu>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About</a></li>  
+        <li><a href="sample_itemlist.html">Store</a></li> 
+        <li><a href="#">Categories</a>
+          <ul class="menu vertical nested">
+            <li><a href="sample_itemlist.html">Interior Paint</a>
+                <ul class="menu vertical nested">
+                    <li><a href="">Glossy</a></li>
+                    <li><a href="">Matte</a></li>
+                    <li><a href="">Special</a></li>
+                </ul>  
+            </li>
+            <li><a href="#">Exterior Paint</a>
+                <ul class="menu vertical nested">
+                    <li><a href="">Glossy</a></li>
+                    <li><a href="">Matte</a></li>
+                    <li><a href="">Special</a></li>
+                </ul>    
+            </li>
+            <li><a href="#">Painting Tools</a>
+                <ul class="menu vertical nested">
+                    <li><a href="">Brush</a></li>
+                    <li><a href="">Roller</a></li>
+                </ul>    
+            </li>
+           </ul>
+         </li>
+       </ul>
+    </div>
+    <div class="off-canvas-content" data-off-canvas-content>
+  <div class="nav-bar">
+      <div class="nav-bar-left">
+        <a class="nav-bar-logo"><img class="logo" src="assets/img/EasyHardwareSmallerLogo.png"></a>
+      </div>
+      <div class="nav-bar-right">
+        <ul class="menu">
+          <li>
+          <li>
+            <button class="offcanvas-trigger" type="button" data-open="offCanvasRight">
+              <span class="offcanvas-trigger-text hide-for-small-only">Menu</span>
+              <div class="hamburger">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+              </div>
+            </button>
+          </li>
+        </ul>
+    </div>
+  </div>
+ </div>
+
+
+<!--DESKTOP NAV -->
+    <div class="top-bar-container" data-sticky-container>
+        <div class="topbar">
+          <div class="top-bar-resize row">
+          <div class="top-bar-title">
+            <img src="assets/img/EasyHardwareSmallerLogo.png" alt="logo"/>    
+          </div>
+          <div class="top-bar-left">
+            <ul class="menu">
+              <li><input type="search" placeholder="Search" class="search"></li>
+              <li><button type="button" class="button">Search</button></li>
+            </ul>
+          </div>
+          <div class="top-bar-right">
+            <ul class="dropdown menu" data-dropdown-menu>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Store</a></li>
+            </ul>
+          </div>
+        </div>
+        </div>
+    </div>
+    
+    <div class="category-container">
+        <div class= "category">
+            <ul class="category-list">
+                <li class="mega-menu">
+                    <a class="category-li" data-toggle="mega-menu" href="#">Categories</a>
+
+                    <div class="dropdown-pane bottom" id="mega-menu" data-dropdown data-options="closeOnClick:true; hover: true; hoverPane: true; vOffset:11">
+
+                      <div class="row expanded">
+                        <div class="medium-4 column">
+                          <ul class="menu vertical">
+                            <li><a href="#">One</a></li>
+                            <li><a href="#">Two</a></li>
+                            <li><a href="#">Three</a></li>
+                          </ul>
+                        </div>
+                        <div class="medium-4 column">
+                          <ul class="menu vertical">
+                            <li><a href="#">One</a></li>
+                            <li><a href="#">Two</a></li>
+                            <li><a href="#">Three</a></li>
+                          </ul>
+                        </div>
+                        <div class="medium-4 column">
+                          <ul class="menu vertical">
+                            <li><a href="#">One</a></li>
+                            <li><a href="#">Two</a></li>
+                            <li><a href="#">Three</a></li>
+                          </ul>
+                        </div>
+                      </div>
+
+                    </div>
+      </li><li><a class="category-li" href="#">Interior Paint</a></li><li><a class="category-li" href="#">Exterior Paint</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="breadcrumb-container">
+        <div class="breadcrumb-row">
+            <nav aria-label="You are here:" role="navigation">
+                <ul class="breadcrumbs">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Interior Paint</a></li>
+                    <li><a href="#">Glossy Paint</a></li>
+                    <li>
+                        <span class="show-for-sr">Current: </span> Nippon Paint
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    
+    <div class="itempage-container">
+        <div class="row itempage-row">
+            <div id="refine" class="medium-3 small-12 columns">
+                <h6>Refine Your Search</h6>
+                <p>Brands</p>
+                <ul>
+                    <li><input class="category-clear-selection" id="category-checkbox1" type="checkbox"><label for="category-checkbox1">Category 1</label></li>
+                    <li><input class="category-clear-selection" id="category-checkbox1" type="checkbox"><label for="category-checkbox1">Category 1</label></li>
+                    <li><input class="category-clear-selection" id="category-checkbox1" type="checkbox"><label for="category-checkbox1">Category 1</label></li>
+                    <li><input class="category-clear-selection" id="category-checkbox1" type="checkbox"><label for="category-checkbox1">Category 1</label></li>
+                    <li><input class="category-clear-selection" id="category-checkbox1" type="checkbox"><label for="category-checkbox1">Category 1</label></li>
+                    <li><input class="category-clear-selection" id="category-checkbox1" type="checkbox"><label for="category-checkbox1">Category 1</label></li>
+                </ul>
+            </div>
+            <div id="items" class="medium-9 small-12 columns">
+            <div class="item-row small-12 columns">
+                <div class="medium-4 small-6 column">
+                <div class="product-card">
+                  <div class="product-card-thumbnail">
+                    <a href="product.html"><img src="assets/img/nipponmomento.jpg"/></a>
+                  </div>
+                  <div class="product-description row collapse">
+                    <div class="small-8 columns">
+                    <h2 class="product-card-title"><a href="#">Product Name</a></h2>
+                    </div>   
+                    <div class="small-4 columns pricing">
+                    <span class="product-card-price">$9.99</span><span class="product-card-sale">$12.99</span>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="medium-4 small-6 column">
+                <div class="product-card">
+                  <div class="product-card-thumbnail">
+                    <a href="#"><img src="assets/img/nipponmomento.jpg"/></a>
+                  </div>
+                  <div class="product-description row collapse">
+                    <div class="small-8 columns">
+                    <h2 class="product-card-title"><a href="#">Product Name</a></h2>
+                    </div>   
+                    <div class="small-4 columns pricing">
+                    <span class="product-card-price">$9.99</span><span class="product-card-sale">$12.99</span>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="medium-4 small-6 column">
+                <div class="product-card">
+                  <div class="product-card-thumbnail">
+                    <a href="#"><img src="assets/img/nipponmomento.jpg"/></a>
+                  </div>
+                  <div class="product-description row collapse">
+                    <div class="small-8 columns">
+                    <h2 class="product-card-title"><a href="#">Product Name</a></h2>
+                    </div>   
+                    <div class="small-4 columns pricing">
+                    <span class="product-card-price">$9.99</span><span class="product-card-sale">$12.99</span>
+                    </div>
+                </div>
+                </div>
+            </div>
+<!--
+            </div>
+            <div class="item-row small-12 columns">
+-->
+                <div class="medium-4 small-6 column">
+                <div class="product-card">
+                  <div class="product-card-thumbnail">
+                    <a href="#"><img src="assets/img/nipponmomento.jpg"/></a>
+                  </div>
+                  <div class="product-description row collapse">
+                    <div class="small-8 columns">
+                    <h2 class="product-card-title"><a href="#">Product Name</a></h2>
+                    </div>   
+                    <div class="small-4 columns pricing">
+                    <span class="product-card-price">$9.99</span><span class="product-card-sale">$12.99</span>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="medium-4 small-6 column">
+                <div class="product-card">
+                  <div class="product-card-thumbnail">
+                    <a href="#"><img src="assets/img/nipponmomento.jpg"/></a>
+                  </div>
+                  <div class="product-description row collapse">
+                    <div class="small-8 columns">
+                    <h2 class="product-card-title"><a href="#">Product Name</a></h2>
+                    </div>   
+                    <div class="small-4 columns pricing">
+                    <span class="product-card-price">$9.99</span><span class="product-card-sale">$12.99</span>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="medium-4 small-6 column">
+                <div class="product-card">
+                  <div class="product-card-thumbnail">
+                    <a href="#"><img src="assets/img/nipponmomento.jpg"/></a>
+                  </div>
+                  <div class="product-description row collapse">
+                    <div class="small-8 columns">
+                    <h2 class="product-card-title"><a href="#">Product Name</a></h2>
+                    </div>   
+                    <div class="small-4 columns pricing">
+                    <span class="product-card-price">$9.99</span><span class="product-card-sale">$12.99</span>
+                    </div>
+                </div>
+                </div>
+            </div>
+<!--
+            </div>
+            <div class="item-row small-12 columns">
+-->
+                <div class="medium-4 small-6 column">
+                <div class="product-card">
+                  <div class="product-card-thumbnail">
+                    <a href="#"><img src="assets/img/nipponmomento.jpg"/></a>
+                  </div>
+                  <div class="product-description row collapse">
+                    <div class="small-8 columns">
+                    <h2 class="product-card-title"><a href="#">Product Name</a></h2>
+                    </div>   
+                    <div class="small-4 columns pricing">
+                    <span class="product-card-price">$9.99</span><span class="product-card-sale">$12.99</span>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="medium-4 small-6 column disappear">
+                <div class="product-card">
+                  <div class="product-card-thumbnail">
+                    <a href="#"><img src="assets/img/nipponmomento.jpg"/></a>
+                  </div>
+                  <div class="product-description row collapse">
+                    <div class="small-8 columns">
+                    <h2 class="product-card-title"><a href="#">Product Name</a></h2>
+                    </div>   
+                    <div class="small-4 columns pricing">
+                    <span class="product-card-price">$9.99</span><span class="product-card-sale">$12.99</span>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="medium-4 small-6 column">
+                <div class="product-card">
+                  <div class="product-card-thumbnail">
+                    <a href="#"><img src="assets/img/nipponmomento.jpg"/></a>
+                  </div>
+                  <div class="product-description row collapse">
+                    <div class="small-8 columns">
+                    <h2 class="product-card-title"><a href="#">Product Name</a></h2>
+                    </div>   
+                    <div class="small-4 columns pricing">
+                    <span class="product-card-price">$9.99</span><span class="product-card-sale">$12.99</span>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+            <div class="pagination small-12 columns">
+                <ul class="pagination text-center" role="navigation" aria-label="Pagination" data-page="6" data-total="16">
+  <li class="pagination-previous disabled">Previous <span class="show-for-sr">page</span></li>
+  <li class="current"><span class="show-for-sr">You're on page</span> 1</li>
+  <li><a href="#" aria-label="Page 2">2</a></li>
+  <li><a href="#" aria-label="Page 3">3</a></li>
+  <li><a href="#" aria-label="Page 4">4</a></li>
+  <li class="ellipsis" aria-hidden="true"></li>
+  <li><a href="#" aria-label="Page 12">12</a></li>
+  <li><a href="#" aria-label="Page 13">13</a></li>
+  <li class="pagination-next"><a href="#" aria-label="Next page">Next <span class="show-for-sr">page</span></a></li>
+</ul>
+
+
+            </div>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <footer class="marketing-site-footer">
+  <div class="row medium-unstack">
+    <div class="medium-4 columns">
+      <h4 class="marketing-site-footer-name">EasyHardware</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita dolorem accusantium architecto id quidem, itaque nesciunt quam ducimus atque.</p>
+      <ul class="menu marketing-site-footer-menu-social simple">
+        <li><a href="#"><i class="fa fa-youtube-square" aria-hidden="true"></i></a></li>
+         <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+         <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
+    <div class="medium-4 columns">
+       <h4 class="marketing-site-footer-title">Contact Info</h4>
+      <div class="marketing-site-footer-block">
+<!--        <i class="fa fa-map-marker" aria-hidden="true"></i>-->
+        <p>Shah Alam<br>San Francisco, CA 94015</p>
+      </div>
+      <div class="marketing-site-footer-block">
+<!--        <i class="fa fa-phone" aria-hidden="true"></i>-->
+        <p>+6013567920</p>
+      </div>
+      <div class="marketing-site-footer-block">
+<!--        <i class="fa fa-envelope-o" aria-hidden="true"></i>-->
+        <p>easyhardware@easyhardware.com.my</p>
+      </div>
+    </div>
+    <div class="medium-4 columns">
+    </div>
+  </div>
+  <div class="marketing-site-footer-bottom">
+    <div class="row large-unstack align-middle">
+      <div class="column">
+        <p>&copy; 2017 No rights reserved</p>
+      </div>
+      <div class="column">
+        <ul class="menu marketing-site-footer-bottom-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Store</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+</body>
+</html>

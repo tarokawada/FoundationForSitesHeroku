@@ -1,0 +1,32 @@
+//.itempage-row{
+//    width:1200px;
+//}
+
+#refine{
+    //height:100%;
+    margin-top: 30px;
+    position: relative;
+    
+    li{
+        list-style: none;
+        margin-left: -18px;
+    }
+    
+    @include breakpoint(small down){
+        display: none;
+    }
+    
+}
+
+.item-row{
+//    margin-top: -20px;
+//    margin-bottom: 15px;
+}
+
+#items{
+    margin-top: 30px;
+}
+
+h6{
+    color: $blue;
+}

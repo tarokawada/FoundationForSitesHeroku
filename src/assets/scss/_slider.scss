@@ -1,0 +1,27 @@
+.fullscreen-image-slider {
+    
+    @include breakpoint(xxlarge){
+       width: 1200px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border: $blue 3px solid; 
+    }
+    
+  .orbit-image {
+    width: 100%;
+    height: 420px;
+  }
+
+  .orbit-caption {
+    bottom: 50%;
+    transform: translateY(50%);
+    background: none;
+    text-align: center;
+    color: $white;
+    font-weight: bold;
+  }
+}
+
+
+
